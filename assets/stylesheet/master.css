@@ -1,0 +1,42 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+#main {
+  background-color: rgb(238, 238, 238);
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#main > h1 {
+  background-color: rgb(34, 34, 34);
+  color: rgb(238, 238, 238);
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px 0 rgb(43, 43, 43);
+}
+#main > button {
+  padding: 10px 50px;
+  margin-top: 40px;
+  border: 2px solid rgb(43, 43, 43);
+  color: rgb(43, 43, 43);
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 20px;
+  transition: 0.4s;
+}
+#main > button:hover {
+  color: rgb(238, 238, 238);
+  background-color: rgb(43, 43, 43);
+}/*# sourceMappingURL=master.css.map */
